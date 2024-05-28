@@ -9,3 +9,5 @@ org.eclipse.launchbar.core.descriptorType.default\:Ejercicio_append_text.exe/act
 org.eclipse.launchbar.core.descriptorType.default\:Ejercicio_append_text.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:Ejercicio_crear_fichero\ Debug/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Ejercicio_crear_fichero\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Ejercicios_binarios.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Ejercicios_binarios.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

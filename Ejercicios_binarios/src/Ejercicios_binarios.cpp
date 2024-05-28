@@ -9,7 +9,7 @@
 #include <stdlib.h> //para el NULL
 
 typedef struct Persona Persona;
-
+//https://www.ibm.com/docs/en/i/7.3?topic=functions-fopen-open-files
 struct Persona{
 	char *nombre;
 	int edad;
@@ -31,6 +31,7 @@ int main() {
 			{"James", 45, 4500}
 	};
 
+
 	int tam = sizeof(empleados) / sizeof(Persona);
 
 	Persona empleadosLectura[tam];
@@ -45,7 +46,7 @@ int main() {
 		return 1;
 	}
 
-	muestraEmpleados(empleados, tam);
+	muestraEmpleados(empleadosLectura, tam);
 	return 0;
 }
 
@@ -60,6 +61,7 @@ int escribirArchivo(Persona empleados[], int tam, const char *nombreArchivo){
 
 	for(int i = 0;i < tam; i++){
 		fwrite(&empleados[i], sizeof(Persona), 1, file);
+		//size_t fwrite(const void *ptr, size_t size, size_t nmemb, FILE *stream)
 	}
 	fflush(file);
 	fclose(file);
